@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="assets/fonts/bad_script/bad.css" />
+  <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/scroll.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <script src="assets/js/menu.js" defer></script>
+  <title>Portfolio - Johan Rodriguez</title>
+</head>
+
+<body>
+  <!--Layout principal-->
+  <div class="layout">
+    <!--Barra lateral-->
+    <aside class="layout__aside">
+      <section class="aside__info-user">
+        <!--Informacion general del usuario-->
+        <div class="info-user__general">
+          <div class="user-info__container-image">
+            <img src="assets/img/user.jpg" class="user-info__image" alt="foto de perfil" width="250" />
+          </div>
+
+          <h2 class="user-info__name">Johan Rodriguez</h2>
+          <h4 class="user-info__job">Desarrollador Web</h4>
+        </div>
+
+        <!--Menù de navegación -->
+        <nav class="layout__menu">
+          <ul class="menu__list">
+            <li class="menu__option">
+              <a href="index.html" class="menu__link">
+                <i class="fa-solid fa-house menu__icon"></i>
+                <span class="menu__overlay">Home</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="sobre_mi.html" class="menu__link menu_link--active">
+                <i class="fa-solid fa-user menu__icon"></i>
+                <span class="menu__overlay">Sobre mi</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="estudios.html" class="menu__link">
+                <i class="fa-solid fa-graduation-cap menu__icon"></i>
+                <span class="menu__overlay">Curriculum</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="portafolio.html" class="menu__link">
+                <i class="fa-solid fa-briefcase menu__icon"></i>
+                <span class="menu__overlay">Portafolio</span>
+              </a>
+            </li>
+
+            <li class="menu__option">
+              <a href="contacto.html" class="menu__link">
+                <i class="fa-solid fa-envelope menu__icon"></i>
+                <span class="menu__overlay">Contacto</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!--Links de redes y demás-->
+        <div class="user-info__links">
+          <ul class="links__social">
+            <li class="social_option">
+              <a href="" class="social__link">
+                <i class="social__icon fa-brands fa-github"></i>
+              </a>
+            </li>
+
+            <li class="social_option">
+              <a href="" class="social__link">
+                <i class="social__icon fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!--Boton de la HV-->
+        <div class="user-info__buttons">
+          <a href="#" class="user-info__btn">Decargar CV</a>
+        </div>
+
+        <!--pie de pagina-->
+        <footer class="user-info__footer">
+          &copy; 2024 Johan Rodriguez Bermudez
+        </footer>
+      </section>
+    </aside>
+
+    <!--Contenido principal-->
+    <main class="layout__content">
+      <section class="content__page content__about">
+        <!--COMODIN PARA CAMBIO DE INFO-->
+
+        <header class="about__header">
+          <h2 class="about__title">
+            Sobre <span class="title__color"> Mi </span>
+          </h2>
+        </header>
+        <section class="about__personal-info">
+          <article class="personal-info__bio">
+            <p class="personal-info__description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consequatur totam mollitia, ipsam labore laboriosam commodi non
+              accusamus quidem architecto cum tempore nulla sint doloribus
+              quibusdam aperiam exercitationem possimus! Deserunt, magni.
+            </p>
+          </article>
+          <div class="personal-info__data">
+            <ul class="personal-info__list">
+              <li class="personal-info_option">
+                <span class="personal-info__title"> Edad </span>
+                <span class="personal-info__value"> 22 </span>
+              </li>
+              <li class="personal-info_option">
+                <span class="personal-info__title"> Pais </span>
+                <span class="personal-info__value"> Colombia </span>
+              </li>
+              <li class="personal-info_option">
+                <span class="personal-info__title"> Dirección </span>
+                <span class="personal-info__value"> Suba, Bogotá </span>
+              </li>
+              <li class="personal-info_option">
+                <span class="personal-info__title"> Correo </span>
+                <span class="personal-info__value">
+                  Johanrodriguezbermudez@gmail.com
+                </span>
+              </li>
+              <li class="personal-info_option">
+                <span class="personal-info__title"> Teléfono </span>
+                <span class="personal-info__value"> 3214844212 </span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="about__services">
+          <header class="services__header">
+            <h3 class="services__title">
+              Lo que <span class="title__color">hago</span>
+            </h3>
+          </header>
+          <div class="services__container">
+            <article class="services__service">
+              <div class="service__icon">
+                <i class="service__real-icon fa-solid fa-code"></i>
+              </div>
+              <div class="service__content">
+                <h4 class="service__title">Programación</h4>
+                <p class="service__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae rerum temporibus hic! Eveniet, eos, molestias
+                  veritatis ullam at aliquid iusto doloribus saepe explicabo
+                  quod reiciendis officia quo. Officiis, expedita nam!
+                </p>
+              </div>
+            </article>
+
+            <article class="services__service">
+              <div class="service__icon">
+                <i class="service__real-icon fa-solid fa-chalkboard-user"></i>
+              </div>
+              <div class="service__content">
+                <h4 class="service__title">Aprendizaje</h4>
+                <p class="service__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae rerum temporibus hic! Eveniet, eos, molestias
+                  veritatis ullam at aliquid iusto doloribus saepe explicabo
+                  quod reiciendis officia quo. Officiis, expedita nam!
+                </p>
+              </div>
+            </article>
+
+            <article class="services__service">
+              <div class="service__icon">
+                <i class="service__real-icon fa-solid fa-computer"></i>
+              </div>
+              <div class="service__content">
+                <h4 class="service__title">Desarrollo Web</h4>
+                <p class="service__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae rerum temporibus hic! Eveniet, eos, molestias
+                  veritatis ullam at aliquid iusto doloribus saepe explicabo
+                  quod reiciendis officia quo. Officiis, expedita nam!
+                </p>
+              </div>
+            </article>
+
+            <article class="services__service">
+              <div class="service__icon">
+                <i class="service__real-icon fa-solid fa-terminal"></i>
+              </div>
+              <div class="service__content">
+                <h4 class="service__title">Administración</h4>
+                <p class="service__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae rerum temporibus hic! Eveniet, eos, molestias
+                  veritatis ullam at aliquid iusto doloribus saepe explicabo
+                  quod reiciendis officia quo. Officiis, expedita nam!
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <!--Menu responsive-->
+    <div class="layout__menu-toggle">
+      <i class="menu-toggle__icon fa-solid fa-bars"></i>
+      <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+    </div>
+  </div>
+</body>
+
+</html>

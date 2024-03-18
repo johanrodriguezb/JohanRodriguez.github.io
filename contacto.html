@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="assets/fonts/bad_script/bad.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <script src="assets/js/map.js" defer></script>
+    <script src="assets/js/menu.js" defer></script>
+    <title>Portfolio - Johan Rodriguez</title>
+</head>
+
+<body>
+    <!--Layout principal-->
+    <div class="layout">
+
+        <!--Barra lateral-->
+        <aside class="layout__aside">
+
+            <section class="aside__info-user">
+
+                <!--Informacion general del usuario-->
+                <div class="info-user__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/user.jpg" class="user-info__image" alt="foto de perfil" width="250">
+                    </div>
+
+                    <h2 class="user-info__name">Johan Rodriguez</h2>
+                    <h4 class="user-info__job">Desarrollador Web</h4>
+
+                </div>
+
+
+                <!--Menù de navegación -->
+                <nav class="layout__menu">
+
+                    <ul class="menu__list">
+
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="fa-solid fa-house menu__icon"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre_mi.html" class="menu__link">
+                                <i class="fa-solid fa-user menu__icon"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="estudios.html" class="menu__link">
+                                <i class="fa-solid fa-graduation-cap menu__icon"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="fa-solid fa-briefcase menu__icon"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link menu_link--active">
+                                <i class="fa-solid fa-envelope menu__icon"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+                <!--Links de redes y demás-->
+                <div class="user-info__links">
+
+                    <ul class="links__social">
+
+                        <li class="social_option">
+                            <a href="" class="social__link">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+
+                        <li class="social_option">
+                            <a href="" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!--Boton de la HV-->
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn">Decargar CV</a>
+                </div>
+
+
+
+                <!--pie de pagina-->
+                <footer class="user-info__footer">
+                    &copy; 2024 Johan Rodriguez Bermudez
+                </footer>
+
+            </section>
+
+
+        </aside>
+
+
+        <!--Contenido principal-->
+        <main class="layout__content">
+            <section class="content__page content__contact">
+                <!--COMODIN PARA CAMBIO DE INFO-->
+
+                <header class="contact__header">
+                    <h2 class="contact__title"> Contacto </span></h2>
+                </header>
+
+                <div class="contact__container">
+
+                    <section class="contact__info">
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-location-dot"></i>
+                            <h2 class="contact__subtitle">Bogotá</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-phone"></i>
+                            <h2 class="contact__subtitle">321484212</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-envelope"></i>
+                            <h2 class="contact__subtitle">joharodriguezbermudez@gmail.com</h2>
+                        </div>
+
+
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-circle-check"></i>
+                            <h2 class="contact__subtitle">Desarrollador Web</h2>
+                        </div>
+
+                    </section>
+
+                    <section class="contact__form-box">
+
+                        <div class="contact__map" id="load-iframe-map">
+                            <span class="loader"></span>
+                        </div>
+
+                        <header class="contact__from-header">
+                            <h3 class="form-header__title">¿ Como Puedo <span class="title__color">Ayudarte?</span></h3>
+                        </header>
+
+                        <form class="contact__form" action="">
+                            <div class="form__container">
+
+                                <section class="form__left">
+
+                                    <div class="form__group">
+                                        <input type="text" class="form__input" name="name" required
+                                            placeholder="Nombre">
+                                        <label for="name" class="form__label">Nombre</label>
+                                    </div>
+
+                                    <div class="form__group">
+                                        <input type="email" class="form__input" name="email" required
+                                            placeholder="Email">
+                                        <label for="email" class="form__label">Email</label>
+                                    </div>
+
+                                    <div class="form__group">
+                                        <input type="text" class="form__input" name="asunto" required
+                                            placeholder="Asunto">
+                                        <label for="asunto" class="form__label">Asunto</label>
+                                    </div>
+
+                                </section>
+
+                                <section class="form__right">
+                                    <div class="form__group form__group--textarea">
+                                        <textarea class="form__input form__input--textarea" name="mensaje" required
+                                            placeholder="Mensaje"></textarea>
+                                        <label for="mensaje" class="form__label">Mensaje</label>
+                                    </div>
+                                </section>
+                            </div>
+                        </form>
+                        <input type="submit" class="form__button" value="Enviar mensaje">
+                    </section>
+
+                </div>
+
+
+            </section>
+        </main>
+
+        <!--Menu responsive-->
+        <div class="layout__menu-toggle">
+            <i class="menu-toggle__icon fa-solid fa-bars"></i>
+            <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
